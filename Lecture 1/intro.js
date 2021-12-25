@@ -6,4 +6,10 @@ if (amount < 12) {
   console.log("Large Number");
 }
 
-console.log("Hey it's my first node app");
+// console.log("Hey it's my first node app");
+
+// console.log(process);
+
+setInterval(() => {
+  console.log("Hello World")
+}, 1000);
