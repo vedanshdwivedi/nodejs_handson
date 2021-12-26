@@ -1,12 +1,13 @@
 // CommonJS, every file is a moduel
 // Modules - Encapsulated Code (only share minimum)
 
-const john = 'john'
-const peter = 'peter'
+// local
 
-const sayHi = (name) => {
-  console.log(`Hello There ${name} `);
-};
+const secret = "SUPER SECRET";
 
-sayHi(john);
-sayHi(peter)
+// shared
+
+const john = "john";
+const peter = "peter";
+
+module.exports = { john, peter };
