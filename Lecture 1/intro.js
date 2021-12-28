@@ -11,5 +11,5 @@ if (amount < 12) {
 // console.log(process);
 
 setInterval(() => {
-  console.log("Hello World")
+  console.log("Hello World");
 }, 1000);
