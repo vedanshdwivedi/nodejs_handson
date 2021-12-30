@@ -9,3 +9,5 @@ console.log(new_items);
 console.log("Hello World");
 
 console.log("Turned off Auto Save");
+
+// Resume Lecture from 2:28:00
