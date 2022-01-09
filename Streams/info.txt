@@ -1,0 +1,11 @@
+STREAMS: Basically used to read/write sequentially
+
+There are 4 types of streams
+
+- Writable : Used to Write Data sequentially
+- Readable: Used to read data sequentially
+- Duplex: Both read and write sequentially
+- Transform: Data can be modified while reading/writing
+
+Streams extend EventEmitter class, so we can use events in streams.
+STREAMS are advanced topic in node
