@@ -1,0 +1,4 @@
+1. We can have N number of EMITs and ONs with the same Event Name
+2. The order of ONs and EMITs matter
+3. Arguments can be passed from EMITs to ONs
+4. Events are core building blocks of node apps
